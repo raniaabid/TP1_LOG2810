@@ -16,13 +16,18 @@
 class Commande
 {
 public:
-   double calculerMasse();
+    void prendreCommande();
+    void afficherCommande();
+    double getMasseTotale();
+    
     
     
 private:
-    vector <ObjetA> commandeA;
-    vector <ObjetB> commandeB;
-    vector <ObjetC> commandeC;
+
+    ObjetA obA;
+    ObjetB obB;
+    ObjetC obC;
+    
     vector <Noeuds> toutNoeuds;
     
     

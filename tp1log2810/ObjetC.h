@@ -11,9 +11,13 @@
 class ObjetC
 {
 public:
+    double getPoids();
+    int getNbObjet();
+    void setNbObjet(int n);
 private:
-    int nombre;
-    double poids=6; 
+    
+    double poids_=6;
+    int nbObjetC;
     
 };
 

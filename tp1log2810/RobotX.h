@@ -12,6 +12,7 @@
 class RobotX
 {
 public:
+    bool eligible();
     double calculerkx(); // 1+commande_.calculerMasse();
     double calculerT();
     

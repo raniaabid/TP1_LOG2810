@@ -11,9 +11,13 @@
 class ObjetA
 {
 public:
+    double getPoids();
+    int getNbObjet();
+    void setNbObjet(int n);
+    
 private:
-    int nombre;
-    double poid=1;
+    double poids_=1;
+    int nbObjetA;
 };
 
 #endif /* ObjetA_h */

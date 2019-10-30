@@ -8,10 +8,12 @@
 
 #ifndef RobotY_h
 #define RobotY_h
+#include "Commande.h"
 class RobotY{
 public:
-    calculerky();
-    calculerT();
+    bool eligible();
+    double calculerky();
+    double calculerT();
 private:
     Commande commande_;
     

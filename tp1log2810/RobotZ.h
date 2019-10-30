@@ -11,6 +11,7 @@
 class RobotZ
 {
 public:
+    bool eligible();
     double calculerkz();
     double calculerT();
 private:
