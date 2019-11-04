@@ -3,10 +3,6 @@ c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2
   Fonctions.cpp
 c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\voisin.h(9): error C2504: 'Noeuds' : classe de base non définie
 c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(10): warning C4129: 'B' : caractère de séquence d'échappement non reconnu
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(47): error C3867: 'Noeuds::getNumSommet' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(48): error C3867: 'Noeuds::getNbObjetA' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(49): error C3867: 'Noeuds::getNbObjetB' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(50): error C3867: 'Noeuds::getNbObjetC' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
 c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(54): error C2039: 'getNumSommet' : n'est pas membre de 'Voisin'
   c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\voisin.h(8): note: voir la déclaration de 'Voisin'
   main.cpp
@@ -27,17 +23,17 @@ c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2
   c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\objetc.h(4): note: voir la déclaration de 'ObjetC'
 c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(20): error C2084: la fonction 'void Noeuds::setRelations(Voisin)' a déjà un corps
   c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(17): note: voir la définition précédente de 'setRelations'
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(25): error C2084: la fonction 'int Noeuds::getNumSommet(void)' a déjà un corps
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(26): error C2084: la fonction 'int Noeuds::getNumSommet(void)' a déjà un corps
   c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(18): note: voir la définition précédente de 'getNumSommet'
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(29): error C2084: la fonction 'int Noeuds::getNbObjetA(void)' a déjà un corps
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(30): error C2084: la fonction 'int Noeuds::getNbObjetA(void)' a déjà un corps
   c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(19): note: voir la définition précédente de 'getNbObjetA'
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(33): error C2084: la fonction 'int Noeuds::getNbObjetB(void)' a déjà un corps
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(34): error C2084: la fonction 'int Noeuds::getNbObjetB(void)' a déjà un corps
   c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(20): note: voir la définition précédente de 'getNbObjetB'
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(37): error C2084: la fonction 'int Noeuds::getNbObjetC(void)' a déjà un corps
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(38): error C2084: la fonction 'int Noeuds::getNbObjetC(void)' a déjà un corps
   c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(21): note: voir la définition précédente de 'getNbObjetC'
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(41): error C2084: la fonction 'int Noeuds::getNbDeVoisins(void)' a déjà un corps
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(42): error C2084: la fonction 'int Noeuds::getNbDeVoisins(void)' a déjà un corps
   c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(22): note: voir la définition précédente de 'getNbDeVoisins'
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(45): error C2084: la fonction 'std::vector<Voisin,std::allocator<_Ty>> Noeuds::getVoisin(void)' a déjà un corps
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(46): error C2084: la fonction 'std::vector<Voisin,std::allocator<_Ty>> Noeuds::getVoisin(void)' a déjà un corps
           with
           [
               _Ty=Voisin
