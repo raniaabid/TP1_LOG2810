@@ -1,25 +1,13 @@
-//
-//  ObjetC.h
-//  tp1log2810
-//
-//  Created by Rania Abid on 2019-10-11.
-//  Copyright © 2019 Rania Abid. All rights reserved.
-//
-
 #ifndef ObjetC_h
 #define ObjetC_h
+
 class ObjetC
 {
 public:
-    double getPoids();
-    int getNbObjet();
-    void setNbObjet(int n);
+	double getPoids();
+	int getNbObjet();
 private:
-    
-    double poids_=6;
-    int nbObjetC;
-    
+	double poids_ = 6;
+	int  nbObjet_;
 };
-
-
 #endif /* ObjetC_h */

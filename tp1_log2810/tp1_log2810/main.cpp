@@ -6,12 +6,14 @@
 //  Copyright © 2019 Rania Abid. All rights reserved.
 //
 
+#include"Fonctions.h"
+#include"Noeuds.h"
 #include <iostream>
 
 int main() {
 
 	//TODO : interface
-	int optionChoisie;
+	/*int optionChoisie;
 
 	std::cout << "Veuillez choisir l'une des options suivantes : \n" << std::endl;
 
@@ -21,7 +23,10 @@ int main() {
 
 
 	///test du cin
-	std::cout << "test du cin" << optionChoisie << std::endl;
+	std::cout << "test du cin" << optionChoisie << std::endl;*/
+
+	vector<Noeuds>graphe = creerGraphe();
+	afficherGraphe(graphe);
 
 
 

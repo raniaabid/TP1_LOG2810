@@ -19,17 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Arc.h" />
     <ClInclude Include="Commande.h" />
     <ClInclude Include="Fonctions.h" />
     <ClInclude Include="Noeuds.h" />
-    <ClInclude Include="NoeudVoisin.h" />
     <ClInclude Include="ObjetA.h" />
     <ClInclude Include="ObjetB.h" />
     <ClInclude Include="ObjetC.h" />
-    <ClInclude Include="RobotX.h" />
-    <ClInclude Include="RobotY.h" />
-    <ClInclude Include="RobotZ.h" />
+    <ClInclude Include="robotX.h" />
+    <ClInclude Include="robotY.h" />
+    <ClInclude Include="robotZ.h" />
+    <ClInclude Include="Voisin.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Commande.cpp" />
@@ -42,6 +41,7 @@
     <ClCompile Include="RobotX.cpp" />
     <ClCompile Include="RobotY.cpp" />
     <ClCompile Include="RobotZ.cpp" />
+    <ClCompile Include="Voisin.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -1,26 +1,62 @@
 ﻿  Commande.cpp
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(9): fatal error C1083: Impossible d'ouvrir le fichier include : 'Voisin.h' : No such file or directory
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\voisin.h(9): error C2504: 'Noeuds' : classe de base non définie
   Fonctions.cpp
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(9): fatal error C1083: Impossible d'ouvrir le fichier include : 'Voisin.h' : No such file or directory
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\voisin.h(9): error C2504: 'Noeuds' : classe de base non définie
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(10): warning C4129: 'B' : caractère de séquence d'échappement non reconnu
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(47): error C3867: 'Noeuds::getNumSommet' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(48): error C3867: 'Noeuds::getNbObjetA' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(49): error C3867: 'Noeuds::getNbObjetB' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(50): error C3867: 'Noeuds::getNbObjetC' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(54): error C2039: 'getNumSommet' : n'est pas membre de 'Voisin'
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\voisin.h(8): note: voir la déclaration de 'Voisin'
   main.cpp
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\voisin.h(9): error C2504: 'Noeuds' : classe de base non définie
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\main.cpp(28): error C3861: 'creerGraphe' : identificateur introuvable
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\main.cpp(29): error C3861: 'afficherGraphe' : identificateur introuvable
   Noeuds.cpp
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(9): fatal error C1083: Impossible d'ouvrir le fichier include : 'Voisin.h' : No such file or directory
-  ObjetA.cpp
-  ObjetB.cpp
-  ObjetC.cpp
-  RobotX.cpp
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(9): fatal error C1083: Impossible d'ouvrir le fichier include : 'Voisin.h' : No such file or directory
-  RobotY.cpp
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(9): fatal error C1083: Impossible d'ouvrir le fichier include : 'Voisin.h' : No such file or directory
-  RobotZ.cpp
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.h(18): error C3646: 'commande_' : spécificateur de substitution inconnu
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.h(18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.cpp(11): error C2628: 'RobotZ' suivi de 'bool' n'est pas conforme (n'auriez-vous pas oublié un ';' ?)
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.cpp(12): error C2556: 'RobotZ RobotZ::eligible(void)' : la fonction surchargée ne diffère que par le type de retour de 'bool RobotZ::eligible(void)'
-  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.h(14): note: voir la déclaration de 'RobotZ::eligible'
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.cpp(11): error C2371: 'RobotZ::eligible' : redéfinition ; types de base différents
-  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.h(14): note: voir la déclaration de 'RobotZ::eligible'
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.cpp(13): error C2065: 'commande_' : identificateur non déclaré
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.cpp(17): error C2065: 'commande_' : identificateur non déclaré
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.cpp(23): error C3861: 'calculeD' : identificateur introuvable
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\voisin.h(9): error C2504: 'Noeuds' : classe de base non définie
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(6): error C2084: la fonction 'void Noeuds::setNumSommet(int)' a déjà un corps
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(15): note: voir la définition précédente de 'setNumSommet'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(11): error C2084: la fonction 'void Noeuds::setNbOBjet(int,int,int)' a déjà un corps
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(16): note: voir la définition précédente de 'setNbOBjet'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(14): error C2039: 'setNbObjet' : n'est pas membre de 'ObjetA'
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\objeta.h(4): note: voir la déclaration de 'ObjetA'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(15): error C2039: 'setNbObjet' : n'est pas membre de 'ObjetB'
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\objetb.h(4): note: voir la déclaration de 'ObjetB'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(16): error C2039: 'setNbObjet' : n'est pas membre de 'ObjetC'
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\objetc.h(4): note: voir la déclaration de 'ObjetC'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(20): error C2084: la fonction 'void Noeuds::setRelations(Voisin)' a déjà un corps
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(17): note: voir la définition précédente de 'setRelations'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(25): error C2084: la fonction 'int Noeuds::getNumSommet(void)' a déjà un corps
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(18): note: voir la définition précédente de 'getNumSommet'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(29): error C2084: la fonction 'int Noeuds::getNbObjetA(void)' a déjà un corps
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(19): note: voir la définition précédente de 'getNbObjetA'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(33): error C2084: la fonction 'int Noeuds::getNbObjetB(void)' a déjà un corps
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(20): note: voir la définition précédente de 'getNbObjetB'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(37): error C2084: la fonction 'int Noeuds::getNbObjetC(void)' a déjà un corps
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(21): note: voir la définition précédente de 'getNbObjetC'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(41): error C2084: la fonction 'int Noeuds::getNbDeVoisins(void)' a déjà un corps
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(22): note: voir la définition précédente de 'getNbDeVoisins'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(45): error C2084: la fonction 'std::vector<Voisin,std::allocator<_Ty>> Noeuds::getVoisin(void)' a déjà un corps
+          with
+          [
+              _Ty=Voisin
+          ]
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(23): note: voir la définition précédente de 'getVoisin'
+  Voisin.cpp
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(17): error C2061: erreur de syntaxe : identificateur 'Voisin'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(23): error C2065: 'Voisin' : identificateur non déclaré
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(23): error C2923: 'std::vector' : 'Voisin' n'est pas un argument de type modèle valide pour le paramètre '_Ty'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(23): error C2903: 'allocator' : le symbole n'est ni un modèle de classe, ni un modèle de fonction
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(23): error C3203: 'allocator' : la classe modèle non spécialisée ne peut pas être utilisée comme argument modèle pour le paramètre modèle '_Alloc' ; type réel attendu
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(32): error C2065: 'Voisin' : identificateur non déclaré
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(32): error C2923: 'std::vector' : 'Voisin' n'est pas un argument de type modèle valide pour le paramètre '_Ty'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(32): error C2903: 'allocator' : le symbole n'est ni un modèle de classe, ni un modèle de fonction
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(32): error C3203: 'allocator' : la classe modèle non spécialisée ne peut pas être utilisée comme argument modèle pour le paramètre modèle '_Alloc' ; type réel attendu
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\voisin.cpp(5): error C2084: la fonction 'void Voisin::setVoisin(int,int,int)' a déjà un corps
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\voisin.h(11): note: voir la définition précédente de 'setVoisin'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\voisin.cpp(11): error C2084: la fonction 'int Voisin::getDistance(void)' a déjà un corps
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\voisin.h(13): note: voir la définition précédente de 'getDistance'
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\voisin.cpp(15): error C2084: la fonction 'int Voisin::getSommetVoisin(void)' a déjà un corps
+  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\voisin.h(12): note: voir la définition précédente de 'getSommetVoisin'
   Génération de code en cours...

@@ -1,20 +1,15 @@
 #pragma once
 
 #include <iostream>
-
-#include <vector>
+#include <vector> 
+#include <fstream>
+#include <string>
 #include "Noeuds.h"
-#include "ObjetA.h"
-#include "ObjetB.h"
-#inc
+#include "Voisin.h"
+using namespace std;
 
 class Fonctions {
-    
-public:
-vector<Noeuds> creerGraphe();
-void afficherGraphe(vector<Noeuds> graphe);
-void plusCourtChemin(); // Dijkstra
-    
-protected:
-   
+	vector<Noeuds> creerGraphe();
+	void afficherGraphe(vector<Noeuds> graphe);
+	void plusCourtChemin(); // Dijkstra
 };

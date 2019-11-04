@@ -7,24 +7,28 @@
 #include "ObjetB.h"
 #include "ObjetC.h"
 #include "Voisin.h"
-using namespace std;
 
+using namespace std;
 class Noeuds
 {
-public:
-    void setNumSommet(int num) {};
-    void setNbOBjet(int x, int y, int z) {};
-    void setRelations(Voisin x) {};
-    int getNumSommet() {};
-    int getNbObjetA() {};
-    int getNbObjetB() {};
-    int getNbObjetC() {};
-private:
-    int numerosSommet_;
-    ObjetA a_;
-    ObjetB b_;
-    ObjetC c_;
-    vector <Voisin> voisins_;
-};
+	public:
+		void setNumSommet(int num) {};
+		void setNbOBjet(int x, int y, int z) {};
+		void setRelations(Voisin x) {};
+		int getNumSommet() {};
+		int getNbObjetA() {};
+		int getNbObjetB() {};
+		int getNbObjetC() {};
+		int getNbDeVoisins() {};
+		vector<Voisin> getVoisin() {};
 
+	protected:	
+	int numerosSommet_;
+
+	private:	
+		ObjetA a_;
+		ObjetB b_;
+		ObjetC c_;
+		vector<Voisin> voisins_;
+};
 #endif /* Noeuds_h */

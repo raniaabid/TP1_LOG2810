@@ -1,22 +1,13 @@
-//
-//  RobotZ.h
-//  tp1log2810
-//
-//  Created by Rania Abid on 2019-10-11.
-//  Copyright © 2019 Rania Abid. All rights reserved.
-//
-
 #ifndef RobotZ_h
 #define RobotZ_h
 class RobotZ
 {
 public:
-    bool eligible();
-    double calculerkz();
-    double calculerT();
+	double calculerkz();
+	double calculerT();
 private:
-    Commande commande_; 
-}
+	Commande commande_;
+};
 
 
 #endif /* RobotZ_h */
