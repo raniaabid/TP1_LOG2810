@@ -9,6 +9,11 @@
 #include <stdio.h>
 #include "ObjetA.h"
 
+ObjetA::ObjetA(){
+    poids_=1;
+    nbObjetA=0;
+}
+
 double ObjetA:: getPoids()
 {
     return poids_;

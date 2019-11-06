@@ -8,6 +8,10 @@
 
 #include <stdio.h>
 #include "RobotZ.h"
+
+RobotZ::RobotZ(){
+    commande_=Commande();
+}
 bool RobotZ::eligible()
 {
     return( commande_.getMasseTotale()<25);
@@ -20,5 +24,6 @@ double RobotZ::calculerkz()
 double RobotZ::calculerT()
 {
     if (eligible())
-        return (calculerkz()*calculeD());
+        return 1;//(calculerkz()*calculeD());
+    return 1;
 }

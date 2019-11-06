@@ -11,6 +11,7 @@
 #include "Commande.h"
 class RobotY{
 public:
+    RobotY();
     bool eligible();
     double calculerky();
     double calculerT();
@@ -18,7 +19,7 @@ private:
     Commande commande_;
     
     
-}
+};
 
 
 #endif /* RobotY_h */

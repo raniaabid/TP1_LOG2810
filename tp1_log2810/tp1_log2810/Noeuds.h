@@ -6,25 +6,32 @@
 #include "ObjetA.h"
 #include "ObjetB.h"
 #include "ObjetC.h"
-#include "Voisin.h"
-using namespace std;
+#include "Voisins.h"
 
+
+using namespace std;
 class Noeuds
 {
 public:
-    void setNumSommet(int num) {};
-    void setNbOBjet(int x, int y, int z) {};
-    void setRelations(Voisin x) {};
-    int getNumSommet() {};
-    int getNbObjetA() {};
-    int getNbObjetB() {};
-    int getNbObjetC() {};
-private:
+    Noeuds();
+    void setNumSommet(int num);
+    void setNbOBjet(int x, int y, int z);
+    void setRelations(Voisins x);
+    int getNumSommet();
+    int getNbObjetA();
+    int getNbObjetB();
+    int getNbObjetC();
+    size_t getNbDeVoisin();
+    vector<Voisins> getNoeudsVoisins();
+    
+    
+protected:
     int numerosSommet_;
+    
+private:
     ObjetA a_;
     ObjetB b_;
     ObjetC c_;
-    vector <Voisin> voisins_;
+    vector<Voisins> voisins_;
 };
-
 #endif /* Noeuds_h */

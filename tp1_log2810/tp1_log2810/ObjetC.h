@@ -11,6 +11,7 @@
 class ObjetC
 {
 public:
+    ObjetC();
     double getPoids();
     int getNbObjet();
     void setNbObjet(int n);

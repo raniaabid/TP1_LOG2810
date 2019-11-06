@@ -13,9 +13,12 @@
 #include "ObjetB.h"
 #include "ObjetC.h"
 #include "Noeuds.h"
-class Commande
+
+
+class Commande //: public ObjetA, ObjetB, ObjetC
 {
 public:
+    Commande();
     void prendreCommande();
     void afficherCommande();
     double getMasseTotale();
@@ -33,6 +36,6 @@ private:
     
     
     
-}
+};
 
 #endif /* Commande_h */

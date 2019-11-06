@@ -8,15 +8,18 @@
 
 #ifndef RobotZ_h
 #define RobotZ_h
+#include "Commande.h"
+
 class RobotZ
 {
 public:
+    RobotZ();
     bool eligible();
     double calculerkz();
     double calculerT();
 private:
     Commande commande_; 
-}
+};
 
 
 #endif /* RobotZ_h */

@@ -1,26 +1,6 @@
-﻿  Commande.cpp
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(9): fatal error C1083: Impossible d'ouvrir le fichier include : 'Voisin.h' : No such file or directory
-  Fonctions.cpp
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(9): fatal error C1083: Impossible d'ouvrir le fichier include : 'Voisin.h' : No such file or directory
-  main.cpp
-  Noeuds.cpp
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(9): fatal error C1083: Impossible d'ouvrir le fichier include : 'Voisin.h' : No such file or directory
-  ObjetA.cpp
-  ObjetB.cpp
-  ObjetC.cpp
-  RobotX.cpp
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(9): fatal error C1083: Impossible d'ouvrir le fichier include : 'Voisin.h' : No such file or directory
-  RobotY.cpp
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.h(9): fatal error C1083: Impossible d'ouvrir le fichier include : 'Voisin.h' : No such file or directory
-  RobotZ.cpp
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.h(18): error C3646: 'commande_' : spécificateur de substitution inconnu
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.h(18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.cpp(11): error C2628: 'RobotZ' suivi de 'bool' n'est pas conforme (n'auriez-vous pas oublié un ';' ?)
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.cpp(12): error C2556: 'RobotZ RobotZ::eligible(void)' : la fonction surchargée ne diffère que par le type de retour de 'bool RobotZ::eligible(void)'
-  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.h(14): note: voir la déclaration de 'RobotZ::eligible'
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.cpp(11): error C2371: 'RobotZ::eligible' : redéfinition ; types de base différents
-  c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.h(14): note: voir la déclaration de 'RobotZ::eligible'
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.cpp(13): error C2065: 'commande_' : identificateur non déclaré
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.cpp(17): error C2065: 'commande_' : identificateur non déclaré
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\robotz.cpp(23): error C3861: 'calculeD' : identificateur introuvable
+﻿  Fonctions.cpp
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(61): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(76): warning C4018: '<' : incompatibilité signed/unsigned
+  Struct.cpp
   Génération de code en cours...
+  tp1_log2810.vcxproj -> C:\Users\Gerard\Documents\POLY\2ND YEAR\LOG2810\TP1_LOG2810\tp1_log2810\Debug\tp1_log2810.exe

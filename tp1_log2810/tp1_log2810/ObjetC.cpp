@@ -8,6 +8,10 @@
 
 #include <stdio.h>
 #include "ObjetC.h"
+ObjetC:: ObjetC(){
+    poids_=6;
+    nbObjetC=0;
+}
 
 double ObjetC:: getPoids(){
     return poids_;

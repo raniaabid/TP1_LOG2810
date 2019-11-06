@@ -9,6 +9,17 @@
 #include <stdio.h>
 #include "Commande.h"
 
+Commande::Commande(){
+    
+    obA = ObjetA();
+    obB = ObjetB();
+    obC = ObjetC();
+    for(int i= 0; i<toutNoeuds.size();i++){
+        
+        toutNoeuds[i]= Noeuds();
+    }
+}
+
 double Commande::getMasseTotale() //ala place de calcul la masse totale
 {
     return(( obA.getNbObjet()*obA.getPoids())+ (obB.getNbObjet()*obB.getPoids())+(obC.getNbObjet()*obC.getPoids()));

@@ -12,6 +12,7 @@
 class RobotX
 {
 public:
+    RobotX();
     bool eligible();
     double calculerkx(); // 1+commande_.calculerMasse();
     double calculerT();
@@ -21,7 +22,7 @@ private:
     
     
     
-}
+};
 
 
 #endif /* RobotX_h */
