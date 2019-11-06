@@ -8,25 +8,24 @@
 
 #include <stdio.h>
 #include "RobotX.h"
-RobotX::RobotX(){
-    commande_=Commande();
+RobotX::RobotX() :Robots() {
+
 }
-bool RobotX:: eligible()
+bool RobotX::eligible()
 {
-    return (commande_.getMasseTotale()<5);
+	return (commande_.getMasseTotale() < 5);
 }
 
-double RobotX::calculerkx() 
+double RobotX::calculerkx()
 {
-    return (1+commande_.getMasseTotale());
-    
+	return (1 + commande_.getMasseTotale());
+
 }
 
 double RobotX::calculerT()
 {
-    if (eligible())
-        return 1;
-    //return(calculerkx()*calculerD()); // calculerd est la distance djikstrat
-    else
-        return 0;
+	if (eligible())
+		return 1;
+	else
+		return 0;
 }

@@ -15,27 +15,27 @@
 #include "Noeuds.h"
 
 
-class Commande //: public ObjetA, ObjetB, ObjetC
+class Commande
 {
 public:
-    Commande();
-    void prendreCommande();
-    void afficherCommande();
-    double getMasseTotale();
-    
-    
-    
+	Commande();
+	void prendreCommande();
+	void afficherCommande();
+	double getMasseTotale();
+
+
+
 private:
 
-    ObjetA obA;
-    ObjetB obB;
-    ObjetC obC;
-    
-    vector <Noeuds> toutNoeuds;
-    
-    
-    
-    
+	ObjetA obA;
+	ObjetB obB;
+	ObjetC obC;
+
+	vector <Noeuds> toutNoeuds;
+
+
+
+
 };
 
 #endif /* Commande_h */

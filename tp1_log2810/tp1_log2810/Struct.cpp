@@ -10,42 +10,42 @@
 #include "Struct.h"
 
 
-Struct::Struct(){
-    
-    distance_=0;
-     noeudCourant_= Noeuds();
-    visite_=false;
-    ancienNoeud_=Noeuds();
+Struct::Struct() {
+
+	distance_ = 0;
+	noeudCourant_ = Noeuds();
+	visite_ = false;
+	ancienNoeud_ = Noeuds();
 }
 
 
-int Struct:: getDistance()
+int Struct::getDistance()
 {
-    return distance_;
+	return distance_;
 }
 Noeuds Struct::getNoeudCourant()
 {
-    return  noeudCourant_;
+	return  noeudCourant_;
 }
 bool Struct::getVisite()
 {
-    return visite_;
+	return visite_;
 }
-Noeuds Struct:: getAncienNoeud()
+Noeuds Struct::getAncienNoeud()
 {
-    return ancienNoeud_; 
+	return ancienNoeud_;
 }
 
-void  Struct:: setDistance(int x){
-    
-    distance_=x;
+void  Struct::setDistance(int x) {
+
+	distance_ = x;
 }
-void  Struct:: setNoeudCourant(Noeuds noeud){
-    noeudCourant_=noeud;
+void  Struct::setNoeudCourant(Noeuds noeud) {
+	noeudCourant_ = noeud;
 }
-void  Struct:: setVisite(bool visite){
-    visite_=visite;
+void  Struct::setVisite(bool visite) {
+	visite_ = visite;
 }
-void  Struct:: setAncienNoeud(Noeuds ancienNoeud){
-    ancienNoeud_=ancienNoeud_;
+void  Struct::setAncienNoeud(Noeuds ancienNoeud) {
+	ancienNoeud_ = ancienNoeud_;
 }

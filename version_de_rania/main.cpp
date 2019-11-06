@@ -30,7 +30,7 @@ int main() {
     
     string reponse;
     cout<<"voulez vous quitter?"<<endl;
-    cin>>reponse;
+    getline(cin, reponse) >> reponse;
     
     cout<<"votre chemin le plus court pour récolter recolter votre commande sera... avec le robot et avec un temps"<<endl;
     if(reponse=="oui")

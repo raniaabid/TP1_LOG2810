@@ -9,25 +9,24 @@
 #include <stdio.h>
 #include "RobotY.h"
 
-RobotY::RobotY(){
-    commande_=Commande();
+RobotY::RobotY() :Robots() {
+
 }
-bool RobotY:: eligible()
+bool RobotY::eligible()
 {
-    return (commande_.getMasseTotale()<10);
+	return (commande_.getMasseTotale() < 10);
 }
 
 double RobotY::calculerky()
 {
-    return (1,5+(0,6*commande_.getMasseTotale()));
+	return (1, 5 + (0, 6 * commande_.getMasseTotale()));
 }
-            
+
 double RobotY::calculerT()
-    {
-        if (eligible())
-            return 1;
-        //return(calculerky()*calculerD()); // calculerd est la distance djikstrat
-    else
-        return 0;
-                
-            }
+{
+	if (eligible())
+		return 1;
+	else
+		return 0;
+
+}

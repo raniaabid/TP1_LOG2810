@@ -13,19 +13,19 @@
 
 
 class Fonctions {
-    
+
 public:
 
-void afficherGraphe(vector<Noeuds> graphe);
-void plusCourtChemin(Commande commande); // Dijkstra
-vector<Noeuds> creerGraphe();
-    void quitter();
+	void afficherGraphe(vector<Noeuds> graphe);
+	void plusCourtChemin(Commande commande); // Dijkstra
+	vector<Noeuds> creerGraphe();
+	void quitter();
 
-    
-    
+
+
 protected:
 
-    vector<Noeuds> graphe;
-  
-   
+	vector<Noeuds> graphe;
+
+
 };

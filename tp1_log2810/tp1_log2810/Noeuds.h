@@ -13,25 +13,25 @@ using namespace std;
 class Noeuds
 {
 public:
-    Noeuds();
-    void setNumSommet(int num);
-    void setNbOBjet(int x, int y, int z);
-    void setRelations(Voisins x);
-    int getNumSommet();
-    int getNbObjetA();
-    int getNbObjetB();
-    int getNbObjetC();
-    size_t getNbDeVoisin();
-    vector<Voisins> getNoeudsVoisins();
-    
-    
+	Noeuds();
+	void setNumSommet(int num);
+	void setNbOBjet(int x, int y, int z);
+	void setRelations(Voisins x);
+	int getNumSommet();
+	int getNbObjetA();
+	int getNbObjetB();
+	int getNbObjetC();
+	size_t getNbDeVoisin();
+	vector<Voisins> getNoeudsVoisins();
+
+
 protected:
-    int numerosSommet_;
-    
+	int numerosSommet_;
+
 private:
-    ObjetA a_;
-    ObjetB b_;
-    ObjetC c_;
-    vector<Voisins> voisins_;
+	ObjetA a_;
+	ObjetB b_;
+	ObjetC c_;
+	vector<Voisins> voisins_;
 };
 #endif /* Noeuds_h */

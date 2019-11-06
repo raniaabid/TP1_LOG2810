@@ -1,6 +1,6 @@
 ﻿  Fonctions.cpp
 c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(61): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(76): warning C4018: '<' : incompatibilité signed/unsigned
-  Struct.cpp
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(92): warning C4018: '<' : incompatibilité signed/unsigned
+  main.cpp
   Génération de code en cours...
   tp1_log2810.vcxproj -> C:\Users\Gerard\Documents\POLY\2ND YEAR\LOG2810\TP1_LOG2810\tp1_log2810\Debug\tp1_log2810.exe

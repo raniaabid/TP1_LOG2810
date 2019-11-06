@@ -9,21 +9,21 @@
 #include <stdio.h>
 #include "RobotZ.h"
 
-RobotZ::RobotZ(){
-    commande_=Commande();
+RobotZ::RobotZ() :Robots() {
+
 }
 bool RobotZ::eligible()
 {
-    return( commande_.getMasseTotale()<25);
+	return(commande_.getMasseTotale() < 25);
 }
 double RobotZ::calculerkz()
 {
-    return (2,5+(0,2*commande_.getMasseTotale()));
+	return (2, 5 + (0, 2 * commande_.getMasseTotale()));
 }
 
 double RobotZ::calculerT()
 {
-    if (eligible())
-        return 1;//(calculerkz()*calculeD());
-    return 1;
+	if (eligible())
+		return 1;
+	return 1;
 }

@@ -26,6 +26,8 @@
     <ClCompile Include="ObjetA.cpp" />
     <ClCompile Include="ObjetB.cpp" />
     <ClCompile Include="ObjetC.cpp" />
+    <ClCompile Include="Objets.cpp" />
+    <ClCompile Include="Robots.cpp" />
     <ClCompile Include="RobotX.cpp" />
     <ClCompile Include="RobotY.cpp" />
     <ClCompile Include="RobotZ.cpp" />
@@ -39,6 +41,8 @@
     <ClInclude Include="ObjetA.h" />
     <ClInclude Include="ObjetB.h" />
     <ClInclude Include="ObjetC.h" />
+    <ClInclude Include="Objets.h" />
+    <ClInclude Include="Robots.h" />
     <ClInclude Include="RobotX.h" />
     <ClInclude Include="RobotY.h" />
     <ClInclude Include="RobotZ.h" />

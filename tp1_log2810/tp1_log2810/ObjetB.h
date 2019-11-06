@@ -8,20 +8,20 @@
 
 #ifndef ObjetB_h
 #define ObjetB_h
-class ObjetB
+#include "Objets.h"
+
+class ObjetB :public Objets
 {
 public:
-    ObjetB();
-    double getPoids();
-    int getNbObjet();
-    void setNbObjet(int n);
+	ObjetB();
 
-    
+
+
 private:
-    
-    double poids_=3;
-    int nbObjetB;
-    
+
+	double poids_ = 3;
+
+
 };
 
 #endif /* ObjetB_h */

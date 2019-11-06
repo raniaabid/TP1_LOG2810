@@ -9,23 +9,9 @@
 #include <stdio.h>
 #include "ObjetB.h"
 
-ObjetB:: ObjetB() {
-    poids_=3;
-    nbObjetB=0;
-    
-}
-double ObjetB:: getPoids()
-{
-    return poids_;
+ObjetB::ObjetB() :Objets() {
+	poids_ = 3;
+	nbObjetB = 0;
+
 }
 
-int ObjetB::getNbObjet()
-
-{
-    return nbObjetB;
-}
-
-void ObjetB:: setNbObjet(int n)
-{
-    nbObjetB=n;
-}

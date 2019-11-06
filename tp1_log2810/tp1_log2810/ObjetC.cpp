@@ -8,21 +8,9 @@
 
 #include <stdio.h>
 #include "ObjetC.h"
-ObjetC:: ObjetC(){
-    poids_=6;
-    nbObjetC=0;
+ObjetC::ObjetC() :Objets() {
+	poids_ = 6;
+
 }
 
-double ObjetC:: getPoids(){
-    return poids_;
-}
 
-int ObjetC::getNbObjet()
-{
-    return nbObjetC;
-}
-
-void ObjetC:: setNbObjet(int n)
-{
-    nbObjetC=n;
-}

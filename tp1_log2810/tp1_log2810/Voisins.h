@@ -23,28 +23,29 @@
 class Voisins
 {
 public:
-    Voisins();
-    void setVoisin(int sommet, int sommetVoisin, int dst);
-    int getSommetVoisin();
-    int getDistance();
-    
-    void setNumSommet(int num);
-    void setNbOBjet(int x, int y, int z);
-    int getNumSommet();
-    int getNbObjetA();
-    int getNbObjetB();
-    int getNbObjetC();
-    
-    
+	Voisins();
+	void setVoisin(int sommet, int sommetVoisin, int dst);
+	int getSommetVoisin();
+	int getDistance();
+
+	void setNumSommet(int num);
+	void setNbOBjet(int x, int y, int z);
+	int getNumSommet();
+	int getNbObjetA();
+	int getNbObjetB();
+	int getNbObjetC();
+
+
 private:
-    int voisinDe_;
-    int distance_; // dou elle vient? cette var
-    //propre a noeuds
-    ObjetA a_;
-    ObjetB b_;
-    ObjetC c_;
-    //vector <Voisins> voisins_;
-    int numerosSommet_;
+	int voisinDe_;
+	int distance_;
+
+	//propre a noeuds
+	ObjetA a_;
+	ObjetB b_;
+	ObjetC c_;
+
+	int numerosSommet_;
 };
 
 #endif /* Voisins_h */
