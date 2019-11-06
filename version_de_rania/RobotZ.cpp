@@ -9,8 +9,8 @@
 #include <stdio.h>
 #include "RobotZ.h"
 
-RobotZ::RobotZ(){
-    commande_=Commande();
+RobotZ::RobotZ():Robots(){
+   
 }
 bool RobotZ::eligible()
 {

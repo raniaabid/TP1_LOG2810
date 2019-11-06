@@ -8,8 +8,8 @@
 
 #include <stdio.h>
 #include "RobotX.h"
-RobotX::RobotX(){
-    commande_=Commande();
+RobotX::RobotX():Robots(){
+    
 }
 bool RobotX:: eligible()
 {

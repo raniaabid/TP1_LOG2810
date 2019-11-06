@@ -91,7 +91,7 @@ void Fonctions::plusCourtChemin(Commande commande) // Dijkstra
             vectorEtat[j].setVisité(false);//quand je vais comparer les distance jvais set a true
             vectorEtat[j].setAncienNoeud(graphe[i-1]);
             
-            
+            //m[i]=
         }
   
         }

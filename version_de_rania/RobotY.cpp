@@ -9,8 +9,8 @@
 #include <stdio.h>
 #include "RobotY.h"
 
-RobotY::RobotY(){
-    commande_=Commande();
+RobotY::RobotY():Robots(){
+
 }
 bool RobotY:: eligible()
 {

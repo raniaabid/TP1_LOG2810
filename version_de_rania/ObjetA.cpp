@@ -9,22 +9,9 @@
 #include <stdio.h>
 #include "ObjetA.h"
 
-ObjetA::ObjetA(){
+ObjetA::ObjetA():Objets(){
     poids_=1;
-    nbObjetA=0;
+   
 }
 
-double ObjetA:: getPoids()
-{
-    return poids_;
-}
 
-int ObjetA:: getNbObjet()
-{
-    return nbObjetA;
-}
-
-void ObjetA:: setNbObjet(int n)
-{
-    nbObjetA=n;
-}
