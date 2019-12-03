@@ -1,6 +1,21 @@
-﻿  Fonctions.cpp
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(61): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(92): warning C4018: '<' : incompatibilité signed/unsigned
+﻿  Commande.cpp
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\commande.cpp(17): warning C4018: '<' : incompatibilité signed/unsigned
+  Fonctions.cpp
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(65): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\fonctions.cpp(83): warning C4018: '<' : incompatibilité signed/unsigned
+  Noeuds.cpp
+c:\users\gerard\documents\poly\2nd year\log2810\tp1_log2810\tp1_log2810\tp1_log2810\noeuds.cpp(11): warning C4018: '<' : incompatibilité signed/unsigned
+  ObjetA.cpp
+  ObjetB.cpp
+  ObjetC.cpp
+  Objets.cpp
+  RobotX.cpp
+  RobotY.cpp
+  RobotZ.cpp
+  Robots.cpp
+  Struct.cpp
+  Voisins.cpp
   main.cpp
   Génération de code en cours...
+  LINK : C:\Users\Gerard\Documents\POLY\2ND YEAR\LOG2810\TP1_LOG2810\tp1_log2810\Debug\tp1_log2810.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
   tp1_log2810.vcxproj -> C:\Users\Gerard\Documents\POLY\2ND YEAR\LOG2810\TP1_LOG2810\tp1_log2810\Debug\tp1_log2810.exe
